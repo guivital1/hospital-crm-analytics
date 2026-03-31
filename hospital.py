@@ -586,7 +586,7 @@ def menu_relatorios():
         op = input("Escolha: ").strip()
 
         if op == "1":
-            relatorio_leads_por_canal()
+            relatar_leads_por_canal()
         elif op == "2":
             relatorio_taxa_conversao()
         elif op == "3":
