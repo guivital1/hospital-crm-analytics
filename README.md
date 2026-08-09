@@ -52,7 +52,9 @@ Charts are exported as `analise_exploratoria.png` and `kpis_crm.png` when suffic
 ## Run
 
 ```bash
-pip install pandas matplotlib seaborn
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 python hospital.py
 ```
 
