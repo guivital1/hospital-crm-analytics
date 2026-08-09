@@ -280,15 +280,4 @@ def inserir_paciente(dados):
                 dados
             )
         except sqlite3.IntegrityError:
-            raise PacienteDuplicadoError() ## inserir excessão manualmente para evitar printar o erro do sqlite, e sim a mensagem personalizada da excessão
-        
-def inserir_paciente(dados):
-    with conectar() as conn:
-        try:
-            conn.execute(
-                "INSERT INTO pacientes (nome_completo, cpf, email, senha, telefone, sexo, "
-                "data_nascimento, peso, altura, entrada) VALUES (?,?,?,?,?,?,?,?,?,?)",
-                dados
-            )
-        except sqlite3.IntegrityError:
             raise PacienteDuplicadoError()
