@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
+  <rect width="1280" height="420" rx="28" fill="#f6f8f7"/>
+  <text x="90" y="126" fill="#648078" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">DATA SYSTEMS</text>
+  <text x="90" y="188" fill="#14231f" font-family="Arial,sans-serif" font-size="48" font-weight="700">Hospital CRM &amp; Analytics</text>
+  <text x="90" y="226" fill="#648078" font-family="Arial,sans-serif" font-size="21">Operations · SQLite · Optimization · Business KPIs</text>
+  <g transform="translate(790 85)">
+    <rect x="0" y="0" width="350" height="250" rx="24" fill="#fff" stroke="#d5dfdb"/>
+    <path d="M62 58h52V6h34v52h52v34h-52v52h-34V92H62z" fill="#98d8c6"/>
+    <g fill="none" stroke="#14231f" stroke-width="3"><path d="M48 195h54l26-34 32 50 30-74 31 58h82"/></g>
+    <g fill="#a6e22e"><circle cx="102" cy="195" r="6"/><circle cx="160" cy="211" r="6"/><circle cx="221" cy="195" r="6"/></g>
+  </g>
+</svg>
